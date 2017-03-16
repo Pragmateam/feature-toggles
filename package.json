@@ -1,0 +1,12 @@
+{
+  "name": "feature-toggles",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
