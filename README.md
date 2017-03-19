@@ -1,6 +1,9 @@
 Feature Toggles
 ===============
 
+[![Build
+Status](https://travis-ci.org/PragmaTeam/feature-toggles.svg?branch=master)](https://travis-ci.org/PragmaTeam/feature-toggles)
+
 Example of using feature techniques at Application level, so here we'll focus
 more on the category of [Release
 toggles](https://martinfowler.com/articles/feature-toggles.html#ReleaseToggles).
