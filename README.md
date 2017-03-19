@@ -20,10 +20,13 @@ Step-by-step:
 * Toggle **OFF**, start to commit/push your changes
 * Release it, test it (e.g.: different environments, limit range of users)
 * Then you can toggle **ON**
-* If you noticed a critical bug or some unexpected behaviour, instead of
-  rollback or revert all the things, just turn it off and take a breath.
-* Once you are happy with your feature in place, remeber to recycle the toggle.
-Remove your feature toggle code (both test and production code)
+* If you notice a critical bug or some unexpected behaviour, instead of
+  rollback or revert all the things, consider rollforward, turn the feature off
+  and take your time to fix it.
+* Once you are happy with your feature in place, remeber to **recycle** the toggle.
+Remove your feature toggle code (both test and production code), otherwise your
+code you'll become too complex and you'll never know if someone or something
+depends on that feature anymore.
 
 ### The example of heart monitor
 
