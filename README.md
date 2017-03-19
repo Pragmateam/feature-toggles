@@ -77,3 +77,10 @@ $ npm install
 ```
 $ npm test
 ```
+
+## References:
+
+* [Continuous Delivery Book](https://www.amazon.com/dp/0321601912?tag=contindelive-20)
+* [Release it Book](https://pragprog.com/book/mnee/release-it)
+* [Feature Toggles by Martin Fowler](https://martinfowler.com/articles/feature-toggles.html)
+* [Branch by Abstraction by Martin Fowler](https://martinfowler.com/bliki/BranchByAbstraction.html)
