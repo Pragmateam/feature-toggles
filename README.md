@@ -35,7 +35,12 @@ depends on that feature anymore.
 
 This repository use as an example the heart monitor, which is a quite simple way
 to describe a few new requirements in order to simulate how would we apply
-feature toggling at the application level.
+feature toggling at the application level. It's organized by branches, so
+the [master branch](https://github.com/PragmaTeam/feature-toggles) will contain
+the final state and you can travel in time through the branches
+[feature#1](https://github.com/PragmaTeam/feature-toggles/tree/feature%231),
+[feature#2](https://github.com/PragmaTeam/feature-toggles/tree/feature%232) and so on.
+You can also keep track of the feature toggling journey through the commits.
 
 You can learn with more details how [cardiac monitoring
 works](https://en.wikipedia.org/wiki/Cardiac_monitoring) but on this example
@@ -74,7 +79,9 @@ Example:
 ![alt heartmonitor-2](heart-monitor-2.png)
 _heart monitor example_
 
-This code is also available on the branch [feature#2](https://github.com/PragmaTeam/feature-toggles/tree/feature%232).
+This code is also available on the branch [feature#2](https://github.com/PragmaTeam/feature-toggles/tree/feature%232)
+and the pull request can also be followed through [here](https://github.com/PragmaTeam/feature-toggles/pull/1).
+
 The following features will be described here in the future.
 
 ### Next steps:
