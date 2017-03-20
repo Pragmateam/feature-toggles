@@ -1,20 +1,19 @@
 const STATUS = require('./heartMonitorStatus');
 
+const isFlatLine = (dataIntervals) => {
+  const allSignals = dataIntervals.map( (data) => data.signal );
+
+  return allSignals.every( (signal) => signal === allSignals[0]);
+}
+
 class HeartMonitor {
   constructor(featureToggle) {
     this.featureToggle = featureToggle;
   }
 
   getStatus (dataIntervals) {
-    const flatLine = this.isFlatLine(dataIntervals);
-
-    return flatLine ? STATUS.STOPPED_BEATING : STATUS.HEART_BEATING;
-  }
-
-  isFlatLine (dataIntervals) {
-    const allSignals = dataIntervals.map( (data) => data.signal );
-
-    return allSignals.every( (signal) => signal === allSignals[0]);
+    return isFlatLine(dataIntervals) ?
+      STATUS.STOPPED_BEATING : STATUS.HEART_BEATING;
   }
 }
 
