@@ -7,10 +7,6 @@ const isFlatLine = (dataIntervals) => {
 }
 
 class HeartMonitor {
-  constructor(featureToggle) {
-    this.featureToggle = featureToggle;
-  }
-
   getStatus (dataIntervals) {
     return isFlatLine(dataIntervals) ?
       STATUS.STOPPED_BEATING : STATUS.HEART_BEATING;
