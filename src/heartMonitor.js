@@ -5,7 +5,7 @@ class HeartMonitor {
     const allSignals = dataIntervals.map( (data) => data.signal );
     const flatLine = allSignals.every( (signal) => signal === 0 );
 
-    return flatLine ? STATUS.STOP_BEATING : STATUS.HEART_BEATING;
+    return flatLine ? STATUS.STOPPED_BEATING : STATUS.HEART_BEATING;
   }
 }
 

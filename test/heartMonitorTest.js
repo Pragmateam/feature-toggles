@@ -3,7 +3,7 @@ const STATUS = require('../src/heartMonitorStatus');
 const HeartMonitor = require('../src/heartMonitor');
 
 describe('HeartMonitor', () => {
-  const StopBeating = STATUS.STOP_BEATING;
+  const StoppedBeating = STATUS.STOPPED_BEATING;
   const HeartBeating = STATUS.HEART_BEATING;
   const heartMonitor = new HeartMonitor();
 
@@ -14,7 +14,7 @@ describe('HeartMonitor', () => {
       { timestamp: '2017-03-16T07:00', signal: 0 },
     ];
 
-    expect(heartMonitor.getStatus(dataIntervals)).to.eql(StopBeating);
+    expect(heartMonitor.getStatus(dataIntervals)).to.eql(StoppedBeating);
   });
 
   it('indicates that heart is beating', () => {

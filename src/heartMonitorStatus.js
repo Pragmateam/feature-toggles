@@ -1,7 +1,7 @@
-const StopBeating = { description: 'stop beating' };
+const StoppedBeating = { description: 'stopped beating' };
 const HeartBeating = { description: 'heart is beating' };
 const STATUS = {
-  STOP_BEATING: StopBeating,
+  STOPPED_BEATING: StoppedBeating,
   HEART_BEATING: HeartBeating
 };
 
