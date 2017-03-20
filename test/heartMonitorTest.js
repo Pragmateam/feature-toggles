@@ -7,7 +7,7 @@ describe('HeartMonitor', () => {
   const HeartBeating = STATUS.HEART_BEATING;
   const heartMonitor = new HeartMonitor();
 
-  it('indicates that heart has stop beating when signal remains the same', () => {
+  it('indicates that heart has stopped beating when signal remains the same', () => {
     const dataIntervals = [
       { timestamp: '2017-03-16T06:00', signal: 0 },
       { timestamp: '2017-03-16T06:30', signal: 0 },
