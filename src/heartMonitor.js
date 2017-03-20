@@ -14,10 +14,7 @@ class HeartMonitor {
   isFlatLine (dataIntervals) {
     const allSignals = dataIntervals.map( (data) => data.signal );
 
-    return allSignals.every( (signal) => {
-      return this.featureToggle.stopBeatingWhenSignalRemainsTheSame ?
-        signal === allSignals[0] : signal === 0;
-    });
+    return allSignals.every( (signal) => signal === allSignals[0]);
   }
 }
 
