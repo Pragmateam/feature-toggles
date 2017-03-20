@@ -47,9 +47,12 @@ evaluate it and plot a chart, like on the image below:
 _heart monitor example_
 
 ### [Feature #1 - Heart beating status](https://github.com/PragmaTeam/feature-toggles/tree/feature%231)
-Given a collection of cardiac pulses as signals are available
-When the monitor evaluates certain amount of time series data
-Then it should send a message weather the heart has stopped or it's still beating.
+
+- Given a collection of cardiac pulses as signals are available
+- When the monitor evaluates certain amount of time series data
+- Then it should send a message weather the heart has stopped or it's still beating
+
+Example:
 
 1. If the line is flat (all signals remains 0), the status will indicate that the heart has stopped.
 2. If all signals varies with higher/lower values the status will indicate that the heart is still beating.
