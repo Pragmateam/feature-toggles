@@ -82,14 +82,18 @@ _heart monitor example_
 This code is also available on the branch [feature#2](https://github.com/PragmaTeam/feature-toggles/tree/feature%232)
 and the pull request can also be followed through [here](https://github.com/PragmaTeam/feature-toggles/pull/1).
 
+### Reclycling feature #2 once it's done
+
+The feature toggle was removed on branch [recycling-feature#2](https://github.com/PragmaTeam/feature-toggles/tree/recycling-feature%232)
+and the pull request can also be followed through [here](https://github.com/PragmaTeam/feature-toggles/pull/2)
+
 The following features will be described here in the future.
 
 ### Next steps:
 
 * Describe new features
 * Add new code that satisfies the new requirements using feature toggles
-  * Maybe we'll use different branches to ilustrate how ir would be in a real
-    scenario.
+  * Use different branches to illustrate how it would look like in a real scenario.
 
 ## Setup:
 
