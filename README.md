@@ -58,6 +58,23 @@ Example:
 2. If all signals varies with higher/lower values the status will indicate that the heart is still beating.
 
 This code is also available on the branch [feature#1](https://github.com/PragmaTeam/feature-toggles/tree/feature%231).
+
+### [Feature #2 - Heart beating status](https://github.com/PragmaTeam/feature-toggles/tree/feature%232)
+
+- Given a collection of cardiac pulses as signals are available
+- When the monitor evaluates certain amount of time series data
+- And all signals remains the same
+- Then the heart beating status should be **stopped**
+
+Example:
+
+1. If the line is flat (all signals remains the same), the status will indicate that the heart has stopped.
+2. If all signals varies with higher/lower values the status will indicate that the heart is still beating.
+
+![alt heartmonitor-2](heart-monitor-2.png)
+_heart monitor example_
+
+This code is also available on the branch [feature#2](https://github.com/PragmaTeam/feature-toggles/tree/feature%232).
 The following features will be described here in the future.
 
 ### Next steps:
