@@ -43,7 +43,7 @@ we'll over simplify what it is. Imagine that our software collects signals over
 time, and every minute the machine sends a signal value that our software will
 evaluate it and plot a chart, like on the image below:
 
-![alt heartmonitor](hearmonitor.png)
+![alt heartmonitor](heart-monitor.png)
 _heart monitor example_
 
 ### [Feature #1 - Heart beating status](https://github.com/PragmaTeam/feature-toggles/tree/feature%231)
