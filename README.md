@@ -26,10 +26,16 @@ Step-by-step:
 * If you notice a critical bug or some unexpected behaviour, instead of
   rollback or revert all the things, consider rollforward, turn the feature off
   and take your time to fix it.
-* Once you are happy with your feature in place, remeber to **recycle** the toggle.
-Remove your feature toggle code (both test and production code), otherwise your
-code you'll become too complex and you'll never know if someone or something
-depends on that feature anymore.
+* Once you are happy with your feature in place, remember to **recycle** the toggle.
+
+The usage of feature toggle requires a lot of discipline and must be used
+carefully. You might end up with toggles of toggles or you could be in a
+situation where you just don’t know where else that toggle has being used, so
+you’ll never deleted it. Be mindful that you can work without it, using
+different techniques like [Branch by
+Abstraction](https://medium.com/r/?url=https%3A%2F%2Fmartinfowler.com%2Fbliki%2FBranchByAbstraction.html)
+that enables you gradually make changes in a total decoupled code which also have
+the benefit of separation of concerns, making easy to maintain.
 
 ### The example of heart monitor
 
@@ -40,7 +46,8 @@ the [master branch](https://github.com/PragmaTeam/feature-toggles) will contain
 the final state and you can travel in time through the branches
 [feature#1](https://github.com/PragmaTeam/feature-toggles/tree/feature%231),
 [feature#2](https://github.com/PragmaTeam/feature-toggles/tree/feature%232) and so on.
-You can also keep track of the feature toggling journey through the commits.
+You can also keep track of the feature toggling journey through the
+[commits](https://github.com/PragmaTeam/feature-toggles/commits/master).
 
 You can learn with more details how [cardiac monitoring
 works](https://en.wikipedia.org/wiki/Cardiac_monitoring) but on this example
