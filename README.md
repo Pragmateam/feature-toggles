@@ -8,7 +8,7 @@ Example of using feature techniques at Application level, so here we'll focus
 more on the category of [Release
 toggles](https://martinfowler.com/articles/feature-toggles.html#ReleaseToggles).
 
-## The process of toggling:
+## The process of toggling
 
 In order to make every commit production ready, feature toggle is one of the
 techniques that allow in-progress features to be checked in while still allows
@@ -96,13 +96,13 @@ and the pull request can also be followed through [here](https://github.com/Prag
 
 The following features will be described here in the future.
 
-### Next steps:
+### Next steps
 
 * Describe new features
 * Add new code that satisfies the new requirements using feature toggles
   * Use different branches to illustrate how it would look like in a real scenario.
 
-## Setup:
+## Setup
 
 Install [node.js](https://nodejs.org/en/download/current/). At this moment,
 we're using `v7.6.0`.
@@ -113,15 +113,19 @@ Install the dependencies:
 $ npm install
 ```
 
-## Running the tests:
+## Running the tests
 
 ```
 $ npm test
 ```
 
-## References:
+## References
 
 * [Continuous Delivery Book](https://www.amazon.com/dp/0321601912?tag=contindelive-20)
 * [Release it Book](https://pragprog.com/book/mnee/release-it)
 * [Feature Toggles by Martin Fowler](https://martinfowler.com/articles/feature-toggles.html)
 * [Branch by Abstraction by Martin Fowler](https://martinfowler.com/bliki/BranchByAbstraction.html)
+
+## License
+Pragmateam/feature-toggles is released under the [MIT
+License](http://www.opensource.org/licenses/MIT).
