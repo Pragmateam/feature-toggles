@@ -2,7 +2,7 @@ Feature Toggles
 ===============
 
 [![Build
-Status](https://travis-ci.org/PragmaTeam/feature-toggles.svg?branch=master)](https://travis-ci.org/PragmaTeam/feature-toggles)
+Status](https://travis-ci.org/Pragmateam/feature-toggles.svg?branch=master)](https://travis-ci.org/Pragmateam/feature-toggles)
 
 Example of using feature techniques at Application level, so here we'll focus
 more on the category of [Release
@@ -42,12 +42,12 @@ the benefit of separation of concerns, making easy to maintain.
 This repository use as an example the heart monitor, which is a quite simple way
 to describe a few new requirements in order to simulate how would we apply
 feature toggling at the application level. It's organized by branches, so
-the [master branch](https://github.com/PragmaTeam/feature-toggles) will contain
+the [master branch](https://github.com/Pragmateam/feature-toggles) will contain
 the final state and you can travel in time through the branches
-[feature#1](https://github.com/PragmaTeam/feature-toggles/tree/feature%231),
-[feature#2](https://github.com/PragmaTeam/feature-toggles/tree/feature%232) and so on.
+[feature#1](https://github.com/Pragmateam/feature-toggles/tree/feature%231),
+[feature#2](https://github.com/Pragmateam/feature-toggles/tree/feature%232) and so on.
 You can also keep track of the feature toggling journey through the
-[commits](https://github.com/PragmaTeam/feature-toggles/commits/master).
+[commits](https://github.com/Pragmateam/feature-toggles/commits/master).
 
 You can learn with more details how [cardiac monitoring
 works](https://en.wikipedia.org/wiki/Cardiac_monitoring) but on this example
@@ -58,7 +58,7 @@ evaluate it and plot a chart, like on the image below:
 ![alt heartmonitor](heart-monitor.png)
 _heart monitor example_
 
-### [Feature #1 - Heart beating status](https://github.com/PragmaTeam/feature-toggles/tree/feature%231)
+### [Feature #1 - Heart beating status](https://github.com/Pragmateam/feature-toggles/tree/feature%231)
 
 - Given a collection of cardiac pulses as signals are available
 - When the monitor evaluates certain amount of time series data
@@ -69,9 +69,9 @@ Example:
 1. If the line is flat (all signals remains 0), the status will indicate that the heart has stopped.
 2. If all signals varies with higher/lower values the status will indicate that the heart is still beating.
 
-This code is also available on the branch [feature#1](https://github.com/PragmaTeam/feature-toggles/tree/feature%231).
+This code is also available on the branch [feature#1](https://github.com/Pragmateam/feature-toggles/tree/feature%231).
 
-### [Feature #2 - Heart beating status](https://github.com/PragmaTeam/feature-toggles/tree/feature%232)
+### [Feature #2 - Heart beating status](https://github.com/Pragmateam/feature-toggles/tree/feature%232)
 
 - Given a collection of cardiac pulses as signals are available
 - When the monitor evaluates certain amount of time series data
@@ -86,13 +86,13 @@ Example:
 ![alt heartmonitor-2](heart-monitor-2.png)
 _heart monitor example_
 
-This code is also available on the branch [feature#2](https://github.com/PragmaTeam/feature-toggles/tree/feature%232)
-and the pull request can also be followed through [here](https://github.com/PragmaTeam/feature-toggles/pull/1).
+This code is also available on the branch [feature#2](https://github.com/Pragmateam/feature-toggles/tree/feature%232)
+and the pull request can also be followed through [here](https://github.com/Pragmateam/feature-toggles/pull/1).
 
 ### Reclycling feature #2 once it's done
 
-The feature toggle was removed on branch [recycling-feature#2](https://github.com/PragmaTeam/feature-toggles/tree/recycling-feature%232)
-and the pull request can also be followed through [here](https://github.com/PragmaTeam/feature-toggles/pull/2)
+The feature toggle was removed on branch [recycling-feature#2](https://github.com/Pragmateam/feature-toggles/tree/recycling-feature%232)
+and the pull request can also be followed through [here](https://github.com/Pragmateam/feature-toggles/pull/2)
 
 The following features will be described here in the future.
 
