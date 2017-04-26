@@ -1,8 +1,11 @@
 Feature Toggles
 ===============
 
-[![Build
-Status](https://travis-ci.org/Pragmateam/feature-toggles.svg?branch=master)](https://travis-ci.org/Pragmateam/feature-toggles)
+<p align="center">
+  <img src="https://img.shields.io/travis/Pragmateam/feature-toggles.svg" alt="travis">
+  <img src="https://img.shields.io/github/license/Pragmateam/feature-toggles.svg" alt="license">
+  <img src="https://img.shields.io/codeclimate/github/Pragmateam/feature-toggles.svg" alt="codeclimate score">
+</p>
 
 Example of using feature techniques at Application level, so here we'll focus
 more on the category of [Release
