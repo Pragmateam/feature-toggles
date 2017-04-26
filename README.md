@@ -7,9 +7,9 @@ Feature Toggles
   <img src="https://img.shields.io/codeclimate/github/Pragmateam/feature-toggles.svg" alt="codeclimate score">
 </p>
 
-Example of using feature techniques at Application level, so here we'll focus
-more on the category of [Release
-toggles](https://martinfowler.com/articles/feature-toggles.html#ReleaseToggles).
+This is an example of feature toggle techniques usage, so here we'll focus
+more on the category of **Release toggles**.
+We also wrote a blog post called **Release your Software anytime**. [Check it out!](https://pragma.team/blog-list/2017/4/24/release-your-software-anytime)
 
 ## The process of toggling
 
