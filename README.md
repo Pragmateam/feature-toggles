@@ -69,8 +69,8 @@ _heart monitor example_
 
 Example:
 
-1. If the line is flat (all signals remains 0), the status should indicate that the heart has stopped.
-2. If all signals varies with higher/lower values the status should indicate that the heart is still beating.
+1. If the line is flat (all signals remains 0), then the status should indicate that the heart has stopped.
+2. If all signals varies with higher/lower values, then the status should indicate that the heart is still beating.
 
 This code is also available on the branch [feature#1](https://github.com/Pragmateam/feature-toggles/tree/feature%231).
 
@@ -83,8 +83,8 @@ This code is also available on the branch [feature#1](https://github.com/Pragmat
 
 Example:
 
-1. If the line is flat (all signals remains the same), the status should indicate that the heart has stopped.
-2. If all signals varies with higher/lower values the status should indicate that the heart is still beating.
+1. If the line is flat (all signals remains the same), then the status should indicate that the heart has stopped.
+2. If all signals varies with higher/lower values, then the status should indicate that the heart is still beating.
 
 ![alt heartmonitor-2](heart-monitor-2.png)
 _heart monitor example_
