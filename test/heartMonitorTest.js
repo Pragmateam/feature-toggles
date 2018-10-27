@@ -8,7 +8,7 @@ describe('HeartMonitor', () => {
 
   const heartMonitor = new HeartMonitor();
 
-  it('indicates that heart is beating', () => {
+  it('should indicate the heart is beating when the signal values change', () => {
     const dataIntervals = [
       { timestamp: '2017-03-16T06:00', signal: 1 },
       { timestamp: '2017-03-16T06:30', signal: 0 },
@@ -18,7 +18,7 @@ describe('HeartMonitor', () => {
     expect(heartMonitor.getStatus(dataIntervals)).to.eql(HeartBeating);
   });
 
-  it('indicates that heart has stopped beating when all signals are zero', () => {
+  it('should indicate the heart has stopped beating when all signals are zero', () => {
     const dataIntervals = [
       { timestamp: '2017-03-16T06:00', signal: 0 },
       { timestamp: '2017-03-16T06:30', signal: 0 },
@@ -28,7 +28,7 @@ describe('HeartMonitor', () => {
     expect(heartMonitor.getStatus(dataIntervals)).to.eql(StoppedBeating);
   });
 
-  it('indicates that heart has stopped beating when signal remains the same', () => {
+  it('should indicate the heart has stopped beating when the signal values are the same', () => {
     const dataIntervals = [
       { timestamp: '2017-03-16T06:00', signal: 1 },
       { timestamp: '2017-03-16T06:30', signal: 1 },
